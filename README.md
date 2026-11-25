@@ -1,8 +1,8 @@
-# Dockerfile Linter
+# Containerfile Practice Checker
 
 Paste a Dockerfile and get a list of best-practice warnings, each with a severity and a suggested fix. It is a static heuristic linter that reads your file line by line in the browser. No server, no tracking, no external dependencies.
 
-**Live demo:** https://0xelitesystem.github.io/dockerfile-linter/
+**Live demo:** https://0xelitesystem.github.io/containerfile-practice-checker/
 
 ## Features
 
@@ -48,8 +48,8 @@ If you use the theme toggle, your light or dark choice is saved in your browser'
 ## Run locally
 
 ```
-git clone https://github.com/0xelitesystem/dockerfile-linter
-cd dockerfile-linter
+git clone https://github.com/0xelitesystem/containerfile-practice-checker
+cd containerfile-practice-checker
 ```
 
 Open `index.html` in a browser. Or serve the folder with `python -m http.server` and visit http://localhost:8000.
